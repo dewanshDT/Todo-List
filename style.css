@@ -183,6 +183,7 @@ form button:hover {
 .todo-status {
   margin-right: 0.5rem;
   transition: all 0.2s ease-in;
+  text-decoration: none;
 }
 
 .delete {
@@ -193,7 +194,7 @@ form button:hover {
 }
 
 .done {
-  color:#38b000;
+  color: #38b000;
   border-radius: 0.7rem;
   background-color: #b0ff8b;
   padding: 0 0.7rem;
