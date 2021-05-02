@@ -205,8 +205,17 @@ form button:hover {
   pointer-events: none;
 }
 
+.todo-status {
+  margin-right: 0.5rem;
+  transition: all 0.2s ease-in;
+  text-decoration: none;
+}
+
 @media (max-width: 800px) {
   main {
     width: 100%;
+  }
+  header{
+    font-size: 1.5rem;
   }
 }
