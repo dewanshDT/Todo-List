@@ -29,9 +29,9 @@ todoList.addEventListener("mouseover", (e) => {
     e.target.parentNode.querySelector(".todo-status").innerText = "Complete!";
     e.target.parentNode.querySelector(".todo-status").classList.add("done");
   } else {
-    e.target.parentNode.querySelector(".todo-status").innerText = "";
-    e.target.parentNode.querySelector(".todo-status").classList.remove("delete");
-    e.target.parentNode.querySelector(".todo-status").classList.remove("done");
+    e.target.querySelector(".todo-status").innerText = "";
+    e.target.querySelector(".todo-status").classList.remove("delete");
+    e.target.querySelector(".todo-status").classList.remove("done");
   }
 });
 
